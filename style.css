@@ -173,12 +173,6 @@ p {
   background-color: transparent;
   transition: background 100ms ease;
 }
-@media (min-width: 768px) {
-  .app .field-view .field .base {
-    width: 45px;
-    height: 45px;
-  }
-}
 @media (pointer: fine) {
   .app .field-view .field .base:hover {
     background: #eee;
