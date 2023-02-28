@@ -44,7 +44,7 @@ p {
 }
 @media (min-width: 768px) {
   .app .runs-innings {
-    margin: 2rem auto 0;
+    margin: 1rem auto 0;
   }
 }
 .app .runs-innings .runs-group {
@@ -115,7 +115,7 @@ p {
 }
 @media (min-width: 768px) {
   .app .outs {
-    margin: 2rem 0 0;
+    margin: 1rem 0 0;
   }
 }
 .app .outs ul {
@@ -164,12 +164,6 @@ p {
   border: 3px solid black;
   transform: rotate(45deg);
   position: relative;
-}
-@media (min-width: 768px) {
-  .app .field-view .field {
-    width: 200px;
-    height: 200px;
-  }
 }
 .app .field-view .field .base {
   position: absolute;
