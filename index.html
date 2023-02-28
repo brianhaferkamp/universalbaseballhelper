@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Universal Tabletop Helper</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="app">
+  <!-- header-->
+  <header class="masthead">
+    <div class="section-inner masthead-inner">
+      <h1 class="game-title">The Game of Dice Baseball</h1>
+      <button id="settings"><i class="zmdi zmdi-settings"></i> Settings</button>
+    </div>
+  </header>
+  <div class="runs-innings">
+    <article class="runs-group visitor-runs">
+      <h2>Visitor</h2>
+      <p class="runs vruns">0</p>
+      <p class="runs-increase"><i class="zmdi zmdi-chevron-up"></i></p>
+      <p class="runs-decrease"><i class="zmdi zmdi-chevron-down"></i></p>
+    </article>
+    <article class="runs-group home-runs">
+      <h2>Home</h2>
+      <p class="runs hruns">0</p>
+      <p class="runs-increase"><i class="zmdi zmdi-chevron-up"></i></p>
+      <p class="runs-decrease"><i class="zmdi zmdi-chevron-down"></i></p>
+    </article>
+    <article class="runs-group innings">
+      <h2>Inning</h2>
+      <p class="inn"><span class="inning-count">1</span></p>
+      <p class="inn-increase"><i class="zmdi zmdi-chevron-up"></i></p>
+      <p class="inn-decrease"><i class="zmdi zmdi-chevron-down"></i></p>
+    </article>
+  </div>
+  <article class="outs">
+    <ul>
+      <li class="out">1 Out</li>
+      <li class="out">2 Outs</li>
+      <li class="out">3 Outs</li>
+    </ul>
+  </article>
+  <div class="field-view">
+    <div class="field">
+      <div class="base"></div>
+      <div class="base"></div>
+      <div class="base"></div>
+    </div>
+  </div>
+  <footer>
+    <!-- dice-->
+    <div class="dice-wrapper">
+      <div class="die die1">
+        <p></p>
+      </div>
+      <div class="die die2">
+        <p></p>
+      </div>
+      <div class="die die3">
+        <p></p>
+      </div>
+      <div class="die die4">
+        <p></p>
+      </div>
+    </div>
+    <!-- roll-->
+    <div class="roll-button">
+      <button id="roll">Roll</button>
+    </div>
+    <div class="audio">
+      <audio class="dice-roll-sound" src="https://github.com/brianhaferkamp/universalbaseballhelper/raw/main/sounds/Dice%2001.wav"></audio>
+    </div>
+  </footer>
+</div>
+<aside class="settings" hidden="hidden">
+  <div class="settings-inner">
+    <p class="close"><i class="zmdi zmdi-close-circle"></i></p>
+    <h2>Settings</h2>
+    <div class="toggle-wrapper audio-toggle">
+      <p>Audio</p>
+      <div class="toggle">
+        <div class="toggle-slider on"></div>
+      </div>
+    </div>
+  </div>
+</aside>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
