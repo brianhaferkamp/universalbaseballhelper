@@ -169,6 +169,7 @@ p {
   position: absolute;
   width: 30px;
   height: 30px;
+  border: 1px solid transparent;
   border-radius: 50%;
   background-color: transparent;
   transition: background 100ms ease;
