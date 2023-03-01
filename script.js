@@ -208,59 +208,59 @@ $("#roll").on("click", function () {
     });
   }
 
-  if (
-    ($(".die1 i").hasClass("zmdi-circle-o") &&
-      die2Result == 1 &&
-      die3Result == 2) ||
-    ($(".die1 i").hasClass("zmdi-circle-o") &&
-      die2Result == 2 &&
-      die3Result == 1)
-  ) {
-    $(".die2, .die3").css({
-      "background-color": "#ffd966"
-    });
-  } else if (
-    ($(".die1 i").hasClass("zmdi-circle-o") &&
-      die2Result == 3 &&
-      die3Result == 6) ||
-    ($(".die1 i").hasClass("zmdi-circle-o") &&
-      die2Result == 6 &&
-      die3Result == 3)
-  ) {
-    $(".die2, .die3").css({
-      "background-color": "#ffd966"
-    });
-  } else if (
-    ($(".die1 i").hasClass("zmdi-circle") &&
-      die2Result == 1 &&
-      die3Result == 5) ||
-    ($(".die1 i").hasClass("zmdi-circle") && die2Result == 5 && die3Result == 1)
-  ) {
-    $(".die2, .die3").css({
-      "background-color": "#ffd966"
-    });
-  } else if (
-    (die2Result == 1 && die3Result == 6) ||
-    (die2Result == 6 && die3Result == 1)
-  ) {
-    $(".die2, .die3").css({
-      "background-color": "#ffd966"
-    });
-  } else if (
-    (die2Result == 3 && die3Result == 4) ||
-    (die2Result == 4 && die3Result == 3)
-  ) {
-    $(".die2, .die3").css({
-      "background-color": "#ffd966"
-    });
-  } else if (die2Result == die3Result) {
-    $(".die2, .die3").css({
-      "background-color": "#ffd966"
-    });
-  } else {
-    $(".die2, .die3").css({
-      "background-color": "white",
-      color: "black"
-    });
-  }
+  // if (
+  //   ($(".die1 i").hasClass("zmdi-circle-o") &&
+  //     die2Result == 1 &&
+  //     die3Result == 2) ||
+  //   ($(".die1 i").hasClass("zmdi-circle-o") &&
+  //     die2Result == 2 &&
+  //     die3Result == 1)
+  // ) {
+  //   $(".die2, .die3").css({
+  //     "background-color": "#ffd966"
+  //   });
+  // } else if (
+  //   ($(".die1 i").hasClass("zmdi-circle-o") &&
+  //     die2Result == 3 &&
+  //     die3Result == 6) ||
+  //   ($(".die1 i").hasClass("zmdi-circle-o") &&
+  //     die2Result == 6 &&
+  //     die3Result == 3)
+  // ) {
+  //   $(".die2, .die3").css({
+  //     "background-color": "#ffd966"
+  //   });
+  // } else if (
+  //   ($(".die1 i").hasClass("zmdi-circle") &&
+  //     die2Result == 1 &&
+  //     die3Result == 5) ||
+  //   ($(".die1 i").hasClass("zmdi-circle") && die2Result == 5 && die3Result == 1)
+  // ) {
+  //   $(".die2, .die3").css({
+  //     "background-color": "#ffd966"
+  //   });
+  // } else if (
+  //   (die2Result == 1 && die3Result == 6) ||
+  //   (die2Result == 6 && die3Result == 1)
+  // ) {
+  //   $(".die2, .die3").css({
+  //     "background-color": "#ffd966"
+  //   });
+  // } else if (
+  //   (die2Result == 3 && die3Result == 4) ||
+  //   (die2Result == 4 && die3Result == 3)
+  // ) {
+  //   $(".die2, .die3").css({
+  //     "background-color": "#ffd966"
+  //   });
+  // } else if (die2Result == die3Result) {
+  //   $(".die2, .die3").css({
+  //     "background-color": "#ffd966"
+  //   });
+  // } else {
+  //   $(".die2, .die3").css({
+  //     "background-color": "white",
+  //     color: "black"
+  //   });
+  // }
 });
